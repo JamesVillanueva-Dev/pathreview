@@ -9,7 +9,7 @@
 **Problem summary:**
 This is an issue with the tests. Specifically, the README is too short and the test says that it is. The correct fix would be to lengthen the README to the correct length or change the test so that it accepts the README. 
 
-**Branch name:** [paste branch name here]
+**Branch name:** test/156-readme-scorer-fixture
 
 **Setup confirmation:** [Y] App runs locally at localhost:5173
 
