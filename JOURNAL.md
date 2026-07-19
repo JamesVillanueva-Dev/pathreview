@@ -9,6 +9,9 @@
 **Selection reasoning:**
 I chose this Tier 1 issue because it is a focused testing problem and matches my current comfort level with the codebase. The scope is small enough for a first contribution: I can inspect one README scorer test, compare the fixture text to the expected word-count behavior, and update the test data or assertion without changing unrelated application logic.
 
+**Checklist reasoning:**
+I can explain the issue in my own words: one README scorer test expects a comprehensive README result, but the sample README is too short for that expectation. The affected code is in `tests/unit/test_readme_scorer.py`, with related word-count behavior in `ingestion/parsers/readme_parser.py`. Done means `pytest tests/unit/test_readme_scorer.py -q` should pass because the fixture and assertion describe the same expected behavior. This is a realistic Tier 1 issue because it is a localized test fix, should take a few focused hours, and the GitHub issue does not list blockers or unresolved dependencies.
+
 **Problem summary:**
 The README scorer test is supposed to verify that a strong README is counted as "comprehensive." Right now, the test fixture is only about 51 words, but the test expects the scorer to report more than 100 words. Because of that mismatch, the test fails even if the README scorer is behaving correctly. A successful fix would make the test fixture and assertion agree, either by lengthening the sample README enough to meet the comprehensive threshold or by correcting the expected result so the test validates the intended behavior.
 
