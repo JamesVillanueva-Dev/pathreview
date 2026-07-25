@@ -24,7 +24,7 @@ The README scorer test is supposed to verify that a strong README is counted as 
 
 ## Week 8 — Reproduction & solution planning
 
-**Reproduction commit link:** [paste commit URL here after pushing]
+**Reproduction commit link:** https://github.com/JamesVillanueva-Dev/pathreview/commit/b93c24795741757bca0f57b2ec2581bd267d6ca9
 
 **Reproduction summary:**
 I ran `pytest tests/unit/test_readme_scorer.py -q` in my local venv. One test,
