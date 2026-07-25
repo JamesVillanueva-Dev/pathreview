@@ -20,3 +20,20 @@ The README scorer test is supposed to verify that a strong README is counted as 
 **Setup confirmation:** [Y] App runs locally at localhost:5173
 
 **Cohort ledger:** [Y] Issue added to cohort ledger
+
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** [paste commit URL here after pushing]
+
+**Reproduction summary:**
+I ran `pytest tests/unit/test_readme_scorer.py -q` in my local venv. One test,
+`test_readme_with_all_quality_signals`, failed with `assert 51 > 100`. The sample README in
+the test is only 51 words, but the test expects more than 100 words and a "comprehensive"
+category, so the assertions and the fixture don't match.
+
+**PLAN.md link:** [paste PLAN.md URL in my fork here]
+
+**Walkthrough video (recommended):** [paste Loom link here, optional]
+
+**Blockers or open questions:**
