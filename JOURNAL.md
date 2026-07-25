@@ -32,7 +32,7 @@ I ran `pytest tests/unit/test_readme_scorer.py -q` in my local venv. One test,
 the test is only 51 words, but the test expects more than 100 words and a "comprehensive"
 category, so the assertions and the fixture don't match.
 
-**PLAN.md link:** [paste PLAN.md URL in my fork here]
+**PLAN.md link:** https://github.com/JamesVillanueva-Dev/pathreview/blob/test/156-readme-scorer-fixture/PLAN.md
 
 **Walkthrough video (recommended):** [paste Loom link here, optional]
 
