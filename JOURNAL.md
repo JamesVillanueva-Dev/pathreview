@@ -54,7 +54,7 @@ not `ingestion/parsers/readme_parser.py`. `pytest tests/unit/test_readme_scorer.
 23 passed.
 
 **Next steps:**
-
+make PR
 
 **Blockers:**
 none
@@ -63,7 +63,7 @@ none
 
 ### Check-in 2 (end of week)
 
-**PR link:** not added yet
+**PR link:** https://github.com/ascherj/pathreview/pull/451
 
 **Branch:** `test/156-readme-scorer-fixture`
 
