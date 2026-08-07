@@ -117,3 +117,35 @@ no new failures:
   `--no-verify`.
 
 **Draft PR feedback received from:** none
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [N] No — still awaiting review
+
+**Summary of feedback:**
+No feedback
+
+**How you responded:**
+[What changes did you make, or what did you reply? If no feedback,
+leave blank.]
+
+---
+
+### Reflection
+
+**What was harder than you expected?**
+Setting up docker was harder than expected
+
+**What did you learn about working in a large codebase?**
+Working in a large codebase is really difficult. It is like trying to help on a topic that you have no idea about. 
+
+**How did AI tools help — and where did they fall short?**
+AI tools were helpful in guiding me on the correct steps whenever I got stuck. 
+
+**What would you do differently if you started over?**
+If I could start over, I would have chosen a more difficult problem to work on. 
+
+**What are you most proud of from this module?**
+I am most proud of finishing my first Codepath course. 
