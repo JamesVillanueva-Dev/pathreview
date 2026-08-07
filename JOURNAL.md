@@ -128,24 +128,23 @@ no new failures:
 No feedback
 
 **How you responded:**
-[What changes did you make, or what did you reply? If no feedback,
-leave blank.]
+No feedback came in, so there was nothing to respond to.
 
 ---
 
 ### Reflection
 
 **What was harder than you expected?**
-Setting up docker was harder than expected. Without AI, I probably would have struggled with the setup for hours.
+Setting up docker was harder than expected. Without AI, I probably would have struggled with the setup for hours. I also did not expect the repo's tests to already be failing when I cloned it. make check and make test-unit both fail before you change anything, so I could not just say the tests pass. I ended up writing down the numbers before and after my change, 53 failed to 52 failed, to show I did not break anything.
 
 **What did you learn about working in a large codebase?**
-Working in a large codebase is really difficult. It is like trying to help on a topic that you have no idea about. 
+Working in a large codebase is really difficult. It is like trying to help on a topic that you have no idea about. In my own projects I know where everything is. Here I guessed the wrong file in my Week 7 entry and did not find out until I opened it, the word count code was in agent/tools/readme_scorer.py. I also learned to leave things alone. There were 52 other failing tests and I did not touch any of them so my PR stayed on issue #156.
 
 **How did AI tools help — and where did they fall short?**
-AI tools were helpful in guiding me on the correct steps whenever I got stuck. They were also helpful in familiarizing myself with a codebase. If I needed to know where something is, AI is a great tool for that. I can not recall any times where is fell significantly short. 
+AI tools were helpful in guiding me on the correct steps whenever I got stuck. They were also helpful in familiarizing myself with a codebase. If I needed to know where something is, AI is a great tool for that. Where it fell short is that it sounds sure of itself even when it is wrong, which is where my wrong file path came from. It also could not decide for me. When the test failed with assert 51 > 100 I had to pick between changing the category to adequate or making the fixture 500+ words, and I had to read the scorer myself to know which one was right.
 
 **What would you do differently if you started over?**
-If I could start over, I would have chosen a more difficult problem to work on. My problem was fairly easy and in hindsight I could have taken on a more difficult problem. 
+If I could start over, I would have chosen a more difficult problem to work on. My problem was fairly easy and in hindsight I could have taken on a more difficult problem. It was one test where the fixture was 51 words and the assertion wanted over 100, so most of my time went to checking I did not break anything instead of writing code. I would also look at whether the repo's own checks even run first. mypy crashes in the numpy files before it gets to the project, so I had to commit with --no-verify.
 
 **What are you most proud of from this module?**
-I am most proud of finishing my first Codepath course. I definitely plan to take more in the future. 
+I am most proud of finishing my first Codepath course. I definitely plan to take more in the future. I am also proud that I opened a real PR on someone else's repo. Before this I had only ever worked on my own projects, so pushing my branch to ascherj/pathreview and filling out their PR template was new to me. It is a small fix but it is on a real project and my name is on it.
